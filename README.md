@@ -1,11 +1,26 @@
-# Emerging Technologies
+# Emerging Technologies: Quantum Computing Assignment
 
-## Prerequisites
+## Overview
+
+This assignment explores foundational concepts in quantum computing, particularly focusing on the Deutsch-Jozsa algorithm and quantum oracle implementations. The project demonstrates the application of classical Boolean functions and their quantum counterparts to understand quantum computational advantages.
+
+## Table of Contents
+
+1. [Problem Statements](#problem-statements)
+2. [Setup & Installation](#setup--installation)
+3. [Project Structure](#project-structure)
+4. [Usage Guide](#usage-guide)
+5. [Implementation Progress](#implementation-progress)
+6. [Academic References](#academic-references)
+
+## Setup & Installation
+
+### Requirements
 
 - Python 3.8 or higher
 - Jupyter Notebook or Jupyter Lab
 
-## Installation
+### Installation Steps
 
 1. Clone the repository:
 ```bash
@@ -13,30 +28,59 @@ git clone <repository-url>
 cd emerging-technologies
 ```
 
-2. Install required dependencies:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-This will install:
-- **numpy**: Numerical computing
-- **qiskit**: Quantum computing framework
+**Dependencies:**
+- **numpy**: Numerical computing and array operations
+- **qiskit**: IBM's quantum computing framework
 - **matplotlib**: Data visualization
 
-## Running the Notebook
+---
 
-### Option 1: Using Jupyter Lab (Recommended)
+## Problem Statements
+
+The assignment comprises five interconnected problems:
+
+1. **Problem 1: Generating Random Boolean Functions**
+   - Generate random Boolean functions with 4 inputs and 1 output
+   - Types: Constant (returns same value for all inputs) or Balanced (returns 1 for exactly half the inputs)
+   - Implementation uses closures and dictionary-based truth tables
+
+2. **Problem 2: Classical Testing for Function Type**
+   - Determine function type through classical queries
+   - Test all 16 possible input combinations
+   - Compare classical query complexity
+
+3. **Problem 3: Quantum Oracles**
+
+4. **Problem 4: Deutsch's Algorithm**
+
+5. **Problem 5: Deutsch-Jozsa Algorithm**
+
+
+## Project Structure
+
+```
+emerging-technologies/
+├── problems.ipynb          # Main assignment notebook
+├── requirements.txt        # Python dependencies
+└── README.md              # This file
+```
+
+---
+
+## Usage Guide
+
+### Option 1: Jupyter Lab (Recommended)
 
 ```bash
 jupyter lab problems.ipynb
 ```
 
-This opens an interactive environment where you can:
-- View and edit all cells
-- Execute cells individually with Shift+Enter
-- See output displayed inline
-
-### Option 2: Using Classic Jupyter Notebook
+### Option 2: Classic Jupyter Notebook
 
 ```bash
 jupyter notebook problems.ipynb
@@ -44,30 +88,19 @@ jupyter notebook problems.ipynb
 
 ### Option 3: VSCode with Jupyter Extension
 
-If using VSCode with the Jupyter extension installed:
 1. Open `problems.ipynb` in VSCode
-2. Click "Run All" or run individual cells with the run button
+2. Use "Run All" or execute individual cells with the run button
 
-## Project Structure
+### Execution Notes
 
-The notebook is organized into 5 problems:
+- Execute cells sequentially from top to bottom
+- Problem 1 must be completed before dependent problems
+- Each problem builds on previous implementations
+- Use print statements for debugging and verification
 
-1. **Problem 1: Generating Random Boolean Functions** 
-2. **Problem 2: Classical Testing for Function Type** 
-3. **Problem 3: Quantum Oracles** 
-4. **Problem 4: Deutsch's Algorithm** 
-5. **Problem 5: Deutsch-Jozsa Algorithm** 
+## References
 
-## Running Individual Cells
-
-To execute a specific cell:
-1. Click on the cell to select it
-2. Press `Shift + Enter` to run it
-3. Output will appear below the cell
-
-## Tips
-
-- Run cells in order from top to bottom
-- Problem 1 must be completed before Problems 2+
-- Each problem builds on previous concepts
-- Use `print()` statements to debug and understand function behavior
+- IBM Quantum Learning: [Classical Information & Operations](https://quantum.cloud.ibm.com/learning/)
+- Python Closures: [Real Python - Closures](https://realpython.com/python-closures/)
+- Python Lambda Functions: [Real Python - Lambda Functions](https://realpython.com/python-lambda/)
+- Deutsch-Jozsa Algorithm: [Qiskit Textbook](https://qiskit.org/textbook)
