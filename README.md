@@ -10,8 +10,7 @@ This assignment explores foundational concepts in quantum computing, particularl
 2. [Setup & Installation](#setup--installation)
 3. [Project Structure](#project-structure)
 4. [Usage Guide](#usage-guide)
-5. [Implementation Progress](#implementation-progress)
-6. [Academic References](#academic-references)
+5. [Academic References](#academic-references)
 
 ## Setup & Installation
 
