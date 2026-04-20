@@ -54,6 +54,9 @@ The assignment comprises five interconnected problems:
    - Compare classical query complexity
 
 3. **Problem 3: Quantum Oracles**
+   - Build four oracle circuits for one-bit Boolean functions: constant-0, constant-1, identity, and negation
+   - Implement the oracle rule $U_f|x\rangle|y\rangle = |x\rangle|y \oplus f(x)\rangle$
+   - Use these oracles as the foundation for Deutsch and Deutsch-Jozsa in later problems
 
 4. **Problem 4: Deutsch's Algorithm**
 
