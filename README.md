@@ -59,6 +59,9 @@ The assignment comprises five interconnected problems:
    - Use these oracles as the foundation for Deutsch and Deutsch-Jozsa in later problems
 
 4. **Problem 4: Deutsch's Algorithm**
+   - Build a two-qubit Deutsch circuit that classifies a one-bit function as constant or balanced
+   - Run one oracle call in superposition and measure the query qubit after the final Hadamard
+   - Interpret outcomes: measurement `0` indicates constant, while `1` indicates balanced
 
 5. **Problem 5: Deutsch-Jozsa Algorithm**
 
