@@ -64,6 +64,11 @@ The assignment comprises five interconnected problems:
    - Interpret outcomes: measurement `0` indicates constant, while `1` indicates balanced
 
 5. **Problem 5: Deutsch-Jozsa Algorithm**
+   - Extend Deutsch's algorithm to 4-bit Boolean functions from Problem 1
+   - Build a 5-qubit Deutsch-Jozsa circuit with a 4-qubit input register and 1 ancilla qubit
+   - Encode each classical function as a reversible quantum oracle using the rule $U_f|x\rangle|y\rangle = |x\rangle|y \oplus f(x)\rangle$
+   - Demonstrate the circuit on both constant functions and two balanced functions
+   - Show that the measured output distinguishes constant functions from balanced functions with one oracle query
 
 
 ## Project Structure
